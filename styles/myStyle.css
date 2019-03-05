@@ -1,0 +1,325 @@
+﻿body {
+    direction: rtl;
+    margin: 0 auto;
+    text-align: right;
+    background: url('../img/lomda_background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*הובר על האייקונים בעמוד הבית*/
+ .row img:hover{
+opacity:0.7;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+
+p, div, ul, lable, h1, h2, h3, h4, h5, h6, h7, problem, choicegroup, choice, label {
+    font-family: 'Varela Round', sans-serif !important;
+    direction: rtl;
+}
+
+/*רקע תפריט ניווט*/
+.lighten-4 {
+    background-color: #4A97B8;
+    direction: ltr !important;
+}
+
+/*לוגו תפריט ניווט*/
+#logoNav {
+    width: 110px;
+}
+
+
+        /*nav*/
+    .navbar-toggler:not(:disabled):not(.disabled) {
+
+    width:40px;
+}
+/*גבול המבורגר*/
+.toggler-example {
+   background-color:#ffffff;
+}
+
+/*קטגריות בתפריט*/
+.navbar-light .navbar-nav .active > .nav-link {
+    color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+/* בהובר קטגריות בתפריט*/
+.navbar-light .navbar-nav .active > .nav-link:hover {
+    color: #1a237e;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #1a237e;
+}
+
+/*אייקונים במרכז*/
+.row {
+    padding-top: 2%;
+    text-align: center !important;
+}
+
+.page-footer {
+    background-color: #4A97B8;
+    color: #ffffff;
+}
+
+/*עיצוב טקסט פוטר*/
+.contactFooter {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-right: 35px;
+}
+
+
+    .contactFooter:hover {
+        color: #1a237e;
+        text-decoration: none;
+    }
+/*מסך גדול*/
+@media only screen and (min-width:900px) {
+    #innerPage {
+        margin: auto;
+        width: 960px;
+        padding-top: 25px;
+        padding-right: 25px;
+    }
+
+    h1 {
+        font-size: 30pt;
+    }
+
+    #deleteBtn {
+        width: 40px;
+        height: auto;
+    }
+
+    #logoNav {
+        width: 140px;
+    }
+
+
+    /*דף אודות*/
+
+    .aboutPage{
+        padding-right:230px;
+    }
+
+    #logoAbout{
+   padding-right:90px;
+}
+
+    .footerReference {
+        padding-right: 340px;
+        padding-top: 57px;
+    }
+.col-lg-3{
+    padding-bottom:50px;
+}
+
+}
+
+/*רק מובייל*/
+@media only screen and (max-width: 480px) {
+   .row{
+       padding-top:20px;
+   }
+    /*כפתור איקס*/
+    #deleteBtn {
+        padding-top: 20px;
+        margin-right: 10px;
+    }
+
+    /*חצים קדימה ואחורה*/
+    #arrowBack {
+        float: left;
+        width: 30px;
+    }
+
+    #arrowNext {
+        float: left;
+        width: 40px;
+    }
+
+    .arrows {
+        padding-left: 15px;
+        padding-bottom: 50px;
+    }
+
+
+    .contactFooter {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size:10pt;
+}
+.col-6{
+
+    padding-bottom:20px;
+}
+
+    /*דף אודות*/
+
+ #logoPic{
+        width:55%!important;
+    }
+
+    #logoAbout h1{
+
+   font-size:19pt;
+
+}
+
+        /*nav*/
+    .navbar-toggler:not(:disabled):not(.disabled) {
+
+    width:20px;
+}
+    .footerReference{
+        padding-right: 25px;
+ 
+}
+
+}
+
+
+
+#imgHeadline {
+    display: inline;
+    margin-left: -200px;
+}
+
+h1 {
+    display: inline;
+    font-size: 22pt;
+    margin-top: 34px;
+}
+
+.allContent {
+    text-align: right !important;
+    padding-top: 25px;
+}
+
+.guids {
+    text-align: right !important;
+}
+
+    .guids li {
+        margin-bottom: 25px;
+        line-height: 30px;
+    }
+
+#headline {
+    text-align: right !important;
+    display: inline-flex;
+}
+/*כפתור איקס*/
+/*#deleteBtn{
+padding-top:10px;
+padding-right:10px;
+    }*/
+
+/*חצים קדימה ואחורה*/
+#arrowBack {
+    padding-top: 8px;
+    float: left;
+    width: 50px;
+}
+
+#arrowNext {
+    float: left;
+    width: 60px;
+}
+
+
+
+/*רכיב אקרדיון*/
+/*******************************
+* Does not work properly if "in" is added after "collapse".
+* Get free snippets on bootpen.com
+*******************************/
+.panel-group .panel {
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #EEEEEE;
+}
+
+.panel-default > .panel-heading {
+    padding: 0;
+    border-radius: 0;
+    color: #212121;
+    background-color: #FAFAFA;
+    border-color: #EEEEEE;
+}
+
+.panel-title {
+    font-size: 14px;
+}
+
+    .panel-title > a:hover {
+        background-color: #B1E2F2;
+        color: #575759;
+    }
+
+    .panel-title > a {
+        display: block;
+        padding: 25px;
+        text-decoration: none;
+        background-color: #4A97B8;
+        color: #ffffff;
+        font-size: 14pt;
+    }
+
+.more-less {
+    float: left;
+    color: #ffffff;
+    background-color: #ffffff;
+}
+
+
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #EEEEEE;
+}
+
+/* ----- v CAN BE DELETED v ----- */
+
+
+.demo {
+    padding-bottom: 60px;
+}
+
+
+/*עמוד אודות*/
+.aboutPage{
+    text-align:center;
+}
+
+#logoAbout{
+    text-align:center;
+
+}
+
+
+#hitLogo{
+    width:10%;
+}
+.footerReference{
+        padding-top: 22px;
+    font-size:10pt;
+
+}
+
+
+/*עמוד צור קשר*/
+.contactInfo{
+    float:right;
+}
