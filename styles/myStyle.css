@@ -2,11 +2,7 @@
     direction: rtl;
     margin: 0 auto;
     text-align: right;
-    background: url('../img/lomda_background.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background: #E3F4FD;
 }
 
 /*הובר על האייקונים בעמוד הבית*/
@@ -161,7 +157,10 @@ p, div, ul, lable, h1, h2, h3, h4, h5, h6, h7, problem, choicegroup, choice, lab
     margin-right: 5px;
     font-size:10pt;
 }
+.col-6{
 
+    padding-bottom:20px;
+}
 
     /*דף אודות*/
 
@@ -307,11 +306,14 @@ padding-right:10px;
 
 
 #hitLogo{
-    width:10%;
+    width:15%;
+    display: inline;
 }
 .footerReference{
         padding-top: 22px;
     font-size:10pt;
+    text-align: CENTER;
+       width:90%;
 
 }
 
